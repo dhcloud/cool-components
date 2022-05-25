@@ -1,0 +1,29 @@
+{
+  "name": "@dhcloud/cool-components",
+  "version": "0.0.1",
+  "description": "a test shared react library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "David Haygarth",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "react": "^18.1.0",
+    "rollup": "^2.74.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "typescript": "^4.7.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dhcloud"
+  }
+}
